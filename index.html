@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I'm Gagik Umrshatyan and i'm 15 years old. I am a seasoned coder with over 2
+    years of
+    experience.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="logo.webp" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="background-site">
+        <div class="container">
+            <div class="btn-up btn-up_hide"><i class="fa-solid fa-arrow-up"></i></div>
+            <header id='home'>
+                <nav>
+                    <ul class='nav-bar'>
+                        <li class='nav-bar__logo'>
+                            <a href='index.html'>
+                                <h1>Armstrong</h1>
+                                <h1>Service</h1>
+                            </a>
+                        </li>
+                        <input type='checkbox' id='check' />
+                        <span class="nav-bar__menu">
+							<li><a href="#">Գլխավոր</a></li>
+                            <li><a href="sborka.html">Սբոռկաներ</a></li>
+                            <li><a onclick="myFunction()">Ռեդուքսներ</a></li>
+							<li><a href="about.html">Մեր Մասին</a></li>
+							<label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+							</span>
+                        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                    </ul>
+                </nav>
+                <div class="header__main">
+                    <div class='header__main__texts'>
+                        <h1 class='header__main__prof'>Կարող ես գտնել ասյտեղ լավագույն <span class='auto-name'></span></h1>
+                        <span class='header__main__name'>Միակը Հայաստանում․ Դուք կարող եք գտնել ասյտեղից ամենալավ սբոռկաները թույլ և ուժեղ համակարգիչների համար</span>
+                    </div>
+                </div>
+            </header>
+
+
+            <footer id='contacts'>
+                <div class="footer__social-networks">
+                    <a href="https://discord.gg/QUkB8xp9yU" target='_blank'><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://t.me/armstrong_service" target='_blank'><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/Gag3333" target='_blank'><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="footer__contacts">
+                    <h1 class='footer__contact__tag'>Կապ</h1>
+                    <div class="footer__contacts__info">
+                        <span><i class="fa-regular fa-envelope"></i>umrshartyangag@icloud.com</span>
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('.auto-name', {
+            strings: ['Սբոռկաներ', 'Ռեդուքսներ'],
+            typeSpeed: 150,
+            backSpeed: 50,
+            looped: true,
+            shuffle: true,
+            cursorChar: '.',
+            showCursor: true
+        })
+    </script>
+</body>
+
+</html>
